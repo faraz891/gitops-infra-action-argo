@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: faraz891/gitops01
+          image: octalcomputer/gitops01
           imagePullPolicy: Always
           ports:
             - containerPort: 80
